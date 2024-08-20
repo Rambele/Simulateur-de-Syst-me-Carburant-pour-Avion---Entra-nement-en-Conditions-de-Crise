@@ -1,0 +1,2 @@
+# Simulateur-de-Syst-me-Carburant-pour-Avion---Entra-nement-en-Conditions-de-Crise
+Développement d'un simulateur de système carburant d'avion en C++/Qt sous Linux, destiné à entraîner les utilisateurs à gérer des situations de crise. Le projet inclut des scénarios de panne, un système de tests et une évaluation des performances. Ce simulateur académique permet de modéliser et de visualiser des situations critiques en temps réel.
