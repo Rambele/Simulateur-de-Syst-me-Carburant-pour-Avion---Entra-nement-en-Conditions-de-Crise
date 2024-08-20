@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1345</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+        background-color:black; border: 1px solid yellow;
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="vt12">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>170</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  white;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>VT12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vt23">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>170</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  white;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>VT23</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p12">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>264</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  white;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>P12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p23">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>264</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;vv&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  white;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+QPushButton:pressed {
+    background-color: green; border: 1px solid yellow;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>P23</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p22">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>270</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  white;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+QPushButton:pressed {
+    background-color: green; border: 1px solid yellow;
+	border-radius: 0px;
+	padding: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>P22</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="v13">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>360</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  white;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>V13</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="v23">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>360</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  white;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>V23</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="v12">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>360</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  white;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>V12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="T1">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>90</y>
+      <width>101</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(255, 85, 0); border: 1px solid black;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Tank 1</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>-50</y>
+      <width>991</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{background-color:white; border: 10px solid yellow;
+
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="T3">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>90</y>
+      <width>101</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(255, 255, 0); border: 1px solid black;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Tank 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="T2">
+    <property name="geometry">
+     <rect>
+      <x>964</x>
+      <y>130</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgb(85, 170, 0); border: 1px solid black;border-radius: 0px;padding: 5px;	font: 87 9pt &quot;Arial Black&quot;;color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Tank 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="M1">
+    <property name="geometry">
+     <rect>
+      <x>754</x>
+      <y>350</y>
+      <width>50</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(58, 85, 66); border: 1px solid black;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>M1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vt12_2">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>120</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background-color:white; border: 2px solid black;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>VT12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vt23_2">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>120</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background-color:white; border: 2px solid black;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>VT23</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="v12_2">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>295</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  background-color:white; border: 2px solid black;	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>V12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="v23_2">
+    <property name="geometry">
+     <rect>
+      <x>1105</x>
+      <y>274</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  background-color:white; border: 2px solid black;	border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>V23</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="v13_2">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>232</y>
+      <width>51</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  background-color:white; border: 2px solid black;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:black;
+}</string>
+    </property>
+    <property name="text">
+     <string>V13</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="M1_2">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>350</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(58, 85, 66); border: 1px solid black;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>M2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="M1_3">
+    <property name="geometry">
+     <rect>
+      <x>1235</x>
+      <y>350</y>
+      <width>50</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(58, 85, 66); border: 1px solid black;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>M3</string>
+    </property>
+   </widget>
+   <widget class="QToolBox" name="verticalToolBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>5000</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolBox
+{
+    background-color:black ; border: 5px solid yellow;
+	border-radius: 0px;
+	padding: 5px;
+	
+
+}</string>
+    </property>
+    <widget class="QWidget" name="verticalToolBoxPage1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>4961</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string/>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout"/>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="toy1">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>159</y>
+      <width>135</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:white; border: 1px solid black;border-radius: 0px;padding: 5px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="toy2">
+    <property name="geometry">
+     <rect>
+      <x>1064</x>
+      <y>160</y>
+      <width>147</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:white; border: 1px solid black;
+	border-radius: 0px;
+	padding: 5px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="toy3">
+    <property name="geometry">
+     <rect>
+      <x>775</x>
+      <y>230</y>
+      <width>7</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="toy5">
+    <property name="geometry">
+     <rect>
+      <x>1257</x>
+      <y>230</y>
+      <width>7</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="toy4">
+    <property name="geometry">
+     <rect>
+      <x>1012</x>
+      <y>230</y>
+      <width>7</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pompe">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>200</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: black; border: 1px solid black;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>P11</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p12_2">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>200</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: grey; border: 1px solid grey;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>P12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pompe1">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>200</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: black; border: 1px solid black;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>P11</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p23_2">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>200</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: grey; border: 1px solid grey;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>P23</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pompe2">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>200</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: black; border: 1px solid black;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>P11</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p22_2">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>200</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: grey; border: 1px solid grey;
+	border-radius: 0px;
+	padding: 5px;
+	
+	font: 87 9pt &quot;Arial Black&quot;;
+	color:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>P22</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a10">
+    <property name="geometry">
+     <rect>
+      <x>1012</x>
+      <y>320</y>
+      <width>7</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a8">
+    <property name="geometry">
+     <rect>
+      <x>775</x>
+      <y>320</y>
+      <width>237</width>
+      <height>7</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(255, 255, 127); border: 1px solid rgb(255, 255, 127);
+
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a2">
+    <property name="geometry">
+     <rect>
+      <x>775</x>
+      <y>320</y>
+      <width>7</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a3">
+    <property name="geometry">
+     <rect>
+      <x>775</x>
+      <y>260</y>
+      <width>489</width>
+      <height>7</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(255, 255, 127); border: 1px solid rgb(255, 255, 127);
+	}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a11">
+    <property name="geometry">
+     <rect>
+      <x>1012</x>
+      <y>300</y>
+      <width>252</width>
+      <height>7</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(255, 255, 127); border: 1px solid rgb(255, 255, 127);
+
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a1">
+    <property name="geometry">
+     <rect>
+      <x>775</x>
+      <y>260</y>
+      <width>7</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a9">
+    <property name="geometry">
+     <rect>
+      <x>1012</x>
+      <y>260</y>
+      <width>7</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a5">
+    <property name="geometry">
+     <rect>
+      <x>1257</x>
+      <y>260</y>
+      <width>7</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a6">
+    <property name="geometry">
+     <rect>
+      <x>1257</x>
+      <y>300</y>
+      <width>7</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a9_2">
+    <property name="geometry">
+     <rect>
+      <x>1012</x>
+      <y>300</y>
+      <width>7</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color:rgb(121, 255, 204); border: 1px solid rgb(121, 255, 204);
+
+width:2px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exo1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  Yellow;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Exo 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exo2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  Yellow;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Exo 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exo3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  Yellow;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Exo 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exo4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  Yellow;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Exo 4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exo5">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  Yellow;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Exo 5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="historique">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>30</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  Yellow;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Historique</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="suivant">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>100</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 5px solid  Yellow;border-radius: 0px;padding: 5px;font: 87 9pt &quot;Arial Black&quot;;color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Suivant</string>
+    </property>
+   </widget>
+   <zorder>textEdit</zorder>
+   <zorder>vt12</zorder>
+   <zorder>vt23</zorder>
+   <zorder>p12</zorder>
+   <zorder>p23</zorder>
+   <zorder>p22</zorder>
+   <zorder>v13</zorder>
+   <zorder>v23</zorder>
+   <zorder>v12</zorder>
+   <zorder>T1</zorder>
+   <zorder>T3</zorder>
+   <zorder>T2</zorder>
+   <zorder>M1</zorder>
+   <zorder>vt12_2</zorder>
+   <zorder>vt23_2</zorder>
+   <zorder>v12_2</zorder>
+   <zorder>v23_2</zorder>
+   <zorder>v13_2</zorder>
+   <zorder>M1_2</zorder>
+   <zorder>M1_3</zorder>
+   <zorder>verticalToolBox</zorder>
+   <zorder>toy1</zorder>
+   <zorder>toy2</zorder>
+   <zorder>toy3</zorder>
+   <zorder>toy5</zorder>
+   <zorder>toy4</zorder>
+   <zorder>pompe</zorder>
+   <zorder>p12_2</zorder>
+   <zorder>pompe1</zorder>
+   <zorder>p23_2</zorder>
+   <zorder>pompe2</zorder>
+   <zorder>p22_2</zorder>
+   <zorder>a10</zorder>
+   <zorder>a8</zorder>
+   <zorder>a2</zorder>
+   <zorder>a3</zorder>
+   <zorder>a11</zorder>
+   <zorder>a1</zorder>
+   <zorder>a9</zorder>
+   <zorder>a5</zorder>
+   <zorder>a6</zorder>
+   <zorder>a9_2</zorder>
+   <zorder>exo1</zorder>
+   <zorder>exo2</zorder>
+   <zorder>exo3</zorder>
+   <zorder>exo4</zorder>
+   <zorder>exo5</zorder>
+   <zorder>historique</zorder>
+   <zorder>suivant</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
